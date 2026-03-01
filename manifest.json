@@ -1,8 +1,8 @@
 {
   "name": "Brainrot Animals",
-  "short_name": "BrainrotPets",
-  "description": "The official Brainrot Animals VR experience. Mine crystals and collect pets!",
-  "start_url": "index.html",
+  "short_name": "Brainrot",
+  "description": "Mine crystals and collect pets in the official Brainrot Animals VR.",
+  "start_url": "./index.html",
   "display": "standalone",
   "orientation": "landscape",
   "background_color": "#ff00ff",
@@ -11,12 +11,14 @@
     {
       "src": "https://cdn.aframe.io/gh-pages/icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "https://cdn.aframe.io/gh-pages/icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "ovr_prioritize_unproctored_pwa": true
